@@ -1,3 +1,7 @@
+<?php 
+    $actualEpisode = 'episode-02';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +10,6 @@
     <title>JavaScript Essentials Test Runner</title>
 </head>
 <body>
-    <script src="episode-01/episode-01.js"></script>
+    <script src="<?= "$actualEpisode/$actualEpisode.js" ?>"></script>
 </body>
 </html>
